@@ -1,0 +1,19 @@
+{
+  "name": "Alsamos Islam",
+  "short_name": "Alsamos",
+  "description": "Premium Islamic Knowledge Platform - Quran, Hadith, Prayer Times",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "lifestyle", "books"],
+  "lang": "en"
+}

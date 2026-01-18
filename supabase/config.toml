@@ -1,0 +1,4 @@
+project_id = "olkaoukvtqispotudalo"
+
+[functions.alsamos-ai]
+verify_jwt = false
