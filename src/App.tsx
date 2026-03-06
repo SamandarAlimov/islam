@@ -10,6 +10,9 @@ import Prayer from "./pages/Prayer";
 import AI from "./pages/AI";
 import Articles from "./pages/Articles";
 import Auth from "./pages/Auth";
+import AuthCallback from "./pages/AuthCallback";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 import Profile from "./pages/Profile";
 import Tasbih from "./pages/Tasbih";
 import Media from "./pages/Media";
@@ -40,6 +43,9 @@ const App = () => (
           <Route path="/ai" element={<AI />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/auth/callback" element={<AuthCallback />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/tasbih" element={<Tasbih />} />
           <Route path="/media" element={<Media />} />

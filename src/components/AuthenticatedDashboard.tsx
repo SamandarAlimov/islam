@@ -17,6 +17,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import PrayerTimesWidget from "./PrayerTimesWidget";
 import { DailyInspirationWidget } from "./DailyInspirationWidget";
 import { IslamicCalendarWidget } from "./IslamicCalendarWidget";
+import WeeklyReadingChart from "./WeeklyReadingChart";
 
 interface UserProfile {
   display_name: string | null;
@@ -288,6 +289,9 @@ const AuthenticatedDashboard = () => {
         <div className="space-y-6">
           {/* Daily Inspiration Widget */}
           <DailyInspirationWidget />
+
+          {/* Weekly Reading Chart */}
+          <WeeklyReadingChart />
 
           {/* Prayer Times Widget */}
           <PrayerTimesWidget />
